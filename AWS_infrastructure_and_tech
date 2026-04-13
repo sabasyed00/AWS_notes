@@ -1,0 +1,36 @@
+There are different AWS technology layers 
+The stack starts with 1. ML frameworks 
+                      2. AI / ML services 
+                      3. Generative AI
+
+ML frameworks layers
+ Core : Amazon sagemaker : a fully managed machine learning service that you can use to build, train, and deploy your own custom models. 
+                           SageMaker provides tools and infrastructure to accelerate your ML development and deployment lifecycle.
+
+AI / ML services :   text and documents domain - Amazon Comprehend for natural language processing
+                      Amazon Translate  - language translation
+                      Amazon Textract -  extracting data from scanned documents.
+
+                     chatbots 
+                       Amazon Lex - use to build conversational interfaces powered by the same deep learning technologies that drive Amazon Alexa
+
+                     speech domain  
+                       Amazon polly - text -to-speech 
+                       Amazon transcribe - automatic speech recognition
+
+                    vision domain
+                      Amazon rekognition - DL computer vision service that can analyze images and videos for a wide range of applications.
+
+                    for Search 
+                      Amazon kendra - reimagines enterprise search for websites and applications.
+
+                    recommendations domain
+                      Amazon personalize - real time personalization and recommendations.
+
+                    misc 
+                     AWS DeepRacer - fully autonomous 1/18th scale race car that lets you get hands- on experiecne with RL
+
+
+Generative AI
+   Amazon Bedrock : fully managed servcie that can make FMs from Amazon and leading AI startups available through an API
+   Amazon Q -  a gen AI powered assistant designed to work that can be tailored for a business's data.
