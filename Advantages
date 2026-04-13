@@ -1,0 +1,9 @@
+Accelerated development and deployment
+ Amazon Q Developer  can generate code in real time
+ SageMaker handles tasks such as data preprocessing, model training, and deployment. So developers can focus on the application logic and user experience.
+ Amazon Bedrock provides access to pre-trained models and APIs. 
+ So developers can quickly integrate AI capabilities into their applications without the need for extensive training or specialized hardware. 
+ This accelerates the development process and permits faster iteration cycles, reducing the time to market for AI-powered applications.
+ pay-as-you-go pricing models, 
+ to scale seamlessly across regions and handle large datasets or high-volume traffic.
+ 
