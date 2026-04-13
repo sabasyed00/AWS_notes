@@ -1,0 +1,76 @@
+The ML frameworks layer - a crucial role in the development and deployment of machine learning models. 
+Core : Amazon SageMaker AI. 
+SageMaker AI - tools to effectively build, train, and run LLMs and other FMs efficiently and cost effectively. 
+
+AI / ML services - ready-to-use solutions
+ Amazon Comprehend 
+   uses ML and natural language processing (NLP) to help you uncover the insights and relationships in your unstructured data.
+  Func 
+     Identifies the language of the text
+     Extracts key phrases, places, people, brands, or events
+     Understands how positive or negative the text is
+     Analyzes text using tokenization and parts of speech
+     Automatically organizes a collection of text files by topic
+
+ Amazon translate 
+  -neural machine translation service that delivers fast, high-quality, and affordable language translation.
+   -Neural machine translation is a form of language translation automation that uses deep learning models to deliver more accurate and more natural-sounding translation than traditional statistical and rule-based translation algorithms.
+  -can localize content such as websites and applications for your diverse users, translate large volumes of text for analysis, and efficiently implement cross-lingual communication between users.
+
+
+ Amazon Textract
+   automatically extracts text and data from scanned documents. 
+   goes beyond optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables.
+
+Amazon Lex
+ fully managed AI service to design, build, test, and deploy conversational interfaces into any application using voice and text. 
+ automatic speech recognition (ASR) for converting speech to text, and natural language understanding (NLU) to recognize the intent of the text.
+ build sophisticated, natural-language conversational bots and voice-enabled interactive voice response (IVR) systems.
+
+Amazon Polly
+ service that turns text into lifelike speech.
+ create applications that talk, so you can build entirely new categories of speech-enabled products.
+ to synthesize speech that sounds like a human voic
+
+Amazon transcribe
+ automatic speech recognition (ASR) service for automatically converting speech to text. 
+ can transcribe audio files stored in common formats, like WAV and MP3, with time stamps for every word so that you can quickly locate the audio in the original source by searching for the text. 
+ send a live audio stream to Amazon Transcribe and receive a stream of transcripts in real time
+
+Amazon Rekognition 
+ adding image and video analysis to your applications
+ uses proven, highly scalable, deep learning technology that requires no ML expertise to use.
+ identify objects, people, text, scenes, and activities in images and videos, and even detect inappropriate content.
+ highly accurate facial analysis and facial search capabilities.
+ You can use it to detect, analyze, and compare faces for a wide variety of user verification, people counting, and public safety use cases.
+
+Amazon Kendra
+ search service powered by ML.
+Amazon Personalize
+ to create individualized recommendations for customers who use their applications.
+ processes and examines the data, identifies what is meaningful, selects the right algorithms, and trains and optimizes a personalization model that is customized for your data.
+
+AWS Deepracer
+  1/18th scale race car that gives you an interesting and fun way to get started with reinforcement learning
+  it can make short-term decisions while optimizing for a longer-term goal.
+
+Generative AI 
+Amazon Sagemaker jumpstart 
+ provides a set of solutions for the most common use cases, which can be rapidly deployed.
+ the solutions are fully customizable and showcase the use of AWS CloudFormation templates and reference architectures so that you can accelerate your ML journey.
+ one-click deployment and fine-tuning of more than 150 popular open-source models such as natural language processing, object detection, and image classification models.
+
+Amazon bedrock
+ makes FMs from Amazon and leading AI startups available through an API
+ serverless experience,
+
+Amazon Q
+ help you get fast, relevant answers to pressing questions, solve problems, generate content, and take actions using the data and expertise found in your company's information repositories, code, and enterprise systems. 
+ When you chat with Amazon Q, it provides immediate, relevant information and advice to help streamline tasks, speed decision-making, and help spark creativity and innovation.
+
+Amazon Q developer
+  to improve developer productivity,
+  provides ML–powered code recommendations to accelerate development of C#, Java, JavaScript, Python, and TypeScript applications
+  
+ 
+ 
