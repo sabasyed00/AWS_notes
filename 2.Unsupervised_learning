@@ -1,0 +1,26 @@
+Unsupervised learning
+ The model is trained on unlabeled data.
+ The algo tries to discover hidden patterns or structures within the data w/o any prior info or guidance.
+
+ In this types of learning, the machince has to uncover and create the labels itself.
+
+ Types:
+  1.Clustering 
+  2.Dimension reductionality 
+
+  Clustering 
+   Groups data into different clusters based on similar fts or distances btn the data point to better understand the attributes of a specific cluster.
+
+   Ex:
+ Customer segmentation
+ Targeted marketing
+ Recommended systems
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Dimensionality reduction 
+used to reduce the no.of fts or dimensions in a dataset while preserving the most important information or patterns
+Ex:
+ Big data visualization
+ Meaningful compression
+ Structure discovery
+ Feature elicitation
