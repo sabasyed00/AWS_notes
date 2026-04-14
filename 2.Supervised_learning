@@ -1,0 +1,34 @@
+Supervised learning
+ The algorithms are trained on labeled data.
+Goal : To learn a mapping function that can predict the output for new, unseen input data.
+Needs to learn by example.
+This type of algo uses training data to help determine the patterns and relationships btn the i/ps and the o/ps.
+
+Types of supervised learning 
+ 1. Classification 
+ 2. Regression
+
+ Classification 
+  used to assign labels or categories to new, unseen data instances based on a trained model.
+  The model is trained on labeled dataset, where each instance is already assigned to a known class or category.
+
+  Goal: To learn patterns from the training data and use them to predict the class or category for new unlabeled data instances.
+
+Ex :
+ Fraud detection
+ Image classification
+ Customer retention
+ Diagnostics
+
+ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  Regression 
+   Used for predicting continuous or numerical values based on one or more i/p var.
+  It is used to model the relationship btn a dep var (the value to be predicted) and one or more indp var (the fts or i/ps used for predication).
+
+  Ex:
+Advertising popularity prediction
+Weather forecasting
+Market forecasting
+Estimating life expectancy
+Population growth prediction
