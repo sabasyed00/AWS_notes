@@ -1,0 +1,214 @@
+When building AI systems, developers often face trade-offs. A trade-off means improving one aspect of the model may reduce another aspect.
+
+This lesson focuses on three major trade-offs:
+
+Interpretability vs Performance
+Safety vs Transparency
+Model Controllability
+1. Interpretability vs Explainability
+
+These two concepts are related but not the same.
+
+Interpretability
+
+Interpretability means humans can directly understand how the model works internally.
+
+It gives access to:
+
+Model structure
+Feature weights
+Decision rules
+
+This allows humans to see exactly how predictions are generated.
+
+Example:
+
+A linear regression model where you can clearly see how each feature affects the prediction.
+
+Typical interpretability models:
+
+Linear regression
+Logistic regression
+Decision trees
+
+These models allow developers to inspect internal mechanics.
+
+Explainability
+
+Explainability means describing model behavior in human terms, even if the model is complex.
+
+Explainability methods analyze inputs and outputs instead of internal mechanics.
+
+Examples of explainability techniques:
+
+Partial dependence plots
+SHAP values
+Surrogate models
+
+These methods help explain why the model made a prediction, even when the model itself is a black box.
+
+Key Difference
+Interpretability	Explainability
+Understand internal mechanics	Explain model behavior
+Direct transparency	Indirect explanation
+Works with simpler models	Works with complex models
+2. Interpretability vs Performance Trade-Off
+
+There is often a trade-off between model interpretability and model performance.
+
+High Interpretability → Lower Performance
+
+Simple models:
+
+Linear regression
+Logistic regression
+Decision trees
+
+Advantages:
+
+Easy to understand
+Transparent
+Easy to debug
+
+Disadvantages:
+
+May not capture complex patterns
+Lower predictive accuracy
+High Performance → Lower Interpretability
+
+Complex models:
+
+Deep neural networks
+Large language models
+Ensemble models
+
+Advantages:
+
+Higher accuracy
+Better at complex tasks
+
+Disadvantages:
+
+Hard to interpret
+Hard to debug
+
+These are often called black box models.
+
+When to Choose Interpretability
+
+High interpretability is required in:
+
+Healthcare
+Finance
+Legal systems
+Government decisions
+
+In these areas, humans must understand decisions.
+
+When Explainability Is Used
+
+If a company wants high performance but still wants some understanding, explainability methods are used.
+
+Example:
+
+Explaining predictions of a neural network using SHAP values.
+
+3. Model Safety
+
+Model safety means ensuring AI systems do not cause harm.
+
+Harm can include:
+
+Bias or discrimination
+Privacy violations
+Security vulnerabilities
+Incorrect high-risk decisions
+
+Responsible AI must ensure that models protect individuals and society.
+
+Safety vs Transparency Trade-Off
+
+There is often a conflict between model safety and model transparency.
+
+Transparency requires revealing information, while safety sometimes requires protecting information.
+
+Important factors to balance:
+
+Accuracy
+Privacy
+Safety
+Security
+
+Example:
+
+If too much model information is exposed, attackers might exploit vulnerabilities.
+
+4. Model Controllability
+
+Model controllability means how much developers can control model behavior.
+
+A controllable model allows developers to:
+
+Adjust training data
+Influence predictions
+Reduce bias
+Improve fairness
+
+Higher controllability helps developers steer models toward desired outcomes.
+
+How Controllability Is Measured
+
+Controllability is measured by how model predictions change when developers modify:
+
+Training data
+Input features
+Data distribution
+
+If small data changes lead to predictable changes in model behavior, the model is controllable.
+
+Model Architecture and Controllability
+
+Model architecture affects controllability.
+
+High Controllability
+
+Simple models:
+
+Linear models
+Decision trees
+
+These are easier to control and debug.
+
+Low Controllability
+
+Complex models:
+
+Deep neural networks
+Large generative models
+
+These models are harder to control.
+
+Improving Controllability
+
+Developers can improve controllability using:
+
+Data augmentation
+
+Adding more examples to training data.
+
+Training constraints
+
+Adding rules during training to guide model behavior.
+
+Bias correction techniques
+
+Balancing datasets.
+
+Quick Memory Summary
+
+Remember I.P.S.C
+
+I → Interpretability vs performance trade-off
+P → Performance increases with complex models
+S → Safety vs transparency balance
+C → Controllability helps steer model behavior
