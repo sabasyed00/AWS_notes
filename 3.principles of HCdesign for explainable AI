@@ -1,0 +1,102 @@
+Human-Centered Design (HCD) means designing AI systems so they are easy to understand, useful, fair, and helpful for people who use them.
+
+The goal is to ensure AI decisions are clear, transparent, and aligned with human needs.
+
+1. Design for Amplified Decision-Making
+
+This principle helps people make better decisions with AI, especially in high-risk situations (healthcare, finance, security).
+
+AI should support humans, not replace them.
+
+Key Aspects
+
+Clarity
+Information and explanations should be easy to understand.
+
+Simplicity
+Interfaces and outputs should not be complicated.
+
+Usability
+Systems should be easy and practical to use.
+
+Reflexivity
+Users should be able to reflect and question AI outputs.
+
+Accountability
+There should be clear responsibility for AI decisions.
+
+2. Design for Unbiased Decision-Making
+
+This principle ensures AI systems do not produce unfair or discriminatory outcomes.
+
+Steps to Reduce Bias
+Identify biases in datasets or models.
+Design transparent systems that show how decisions are made.
+Train users to recognize and correct bias.
+Key Aspects
+
+Transparency
+AI decisions should be explainable.
+
+Fairness
+Systems should treat all groups equally.
+
+Training
+Decision-makers should understand AI limitations.
+
+3. Design for Human and AI Learning
+
+AI systems should allow both humans and AI models to improve over time.
+
+This creates a collaborative learning environment.
+
+Key Aspects
+
+Cognitive Apprenticeship
+Humans teach AI through examples and feedback.
+
+Personalization
+AI adapts to user needs.
+
+User-Centered Design
+Systems are built based on user behavior and needs.
+
+Reinforcement Learning from Human Feedback (RLHF)
+
+RLHF is a technique where humans guide AI learning by giving feedback on model outputs.
+
+Instead of only using data, the model also learns from human preferences.
+
+How it works
+AI generates responses.
+Humans rank or evaluate responses.
+The feedback becomes a reward signal.
+The model improves based on this feedback.
+Benefits
+
+• Improves AI performance
+• Provides better training signals
+• Increases user satisfaction
+
+Amazon SageMaker Ground Truth
+
+Amazon SageMaker Ground Truth is an AWS tool used to collect human feedback and label data.
+
+It helps improve model accuracy using human-in-the-loop systems.
+
+Features
+
+• Data annotation
+• Ranking model responses
+• Classification of outputs
+• Supports RLHF training
+
+The labeled data becomes a reward model used to improve AI systems.
+
+Quick Memory Trick
+
+HCD = 3 Principles
+
+Amplify decisions → Help humans decide better
+Remove bias → Ensure fairness
+Learn together → Humans + AI improve
