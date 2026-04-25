@@ -1,0 +1,205 @@
+AWS provides tools to build AI systems that are safe, fair, transparent, and accountable.
+The main services used for Responsible AI are:
+
+Amazon SageMaker
+Amazon Bedrock
+
+These services include features for:
+
+Foundation model evaluation
+Safety guardrails
+Bias detection
+Model explanation
+Monitoring and human review
+Governance and transparency
+1. Amazon Bedrock
+
+Amazon Bedrock is a fully managed service for building generative AI applications.
+
+Key Features
+Access foundation models (FMs) from AI companies and Amazon
+Use models through a single API
+Customize models using your own data
+No infrastructure management (serverless)
+Secure deployment with AWS tools
+Responsible AI Features
+Model evaluation tools
+Guardrails for safe AI usage
+Privacy protection
+2. Foundation Model Evaluation
+
+Before using a foundation model, you must check if it is suitable for your use case.
+
+Two AWS tools help evaluate models:
+
+Model Evaluation in Amazon Bedrock
+
+Allows you to compare and choose the best model.
+
+Two evaluation methods:
+
+1. Automatic Evaluation
+Uses predefined metrics such as:
+
+Accuracy
+Robustness
+Toxicity
+
+2. Human Evaluation
+Uses human reviewers to evaluate:
+
+Friendliness
+Writing style
+Brand voice alignment
+
+Reviewers can be:
+
+Your internal employees
+AWS-managed reviewers
+3. Bias Detection
+
+Bias means the model unfairly favors certain groups.
+
+AWS tool used:
+
+Amazon SageMaker Clarify
+
+What SageMaker Clarify Does
+Detects bias in datasets
+Detects bias in model predictions
+Generates visual bias reports
+
+Example features checked:
+
+Gender
+Age
+Demographics
+Fixing Data Bias
+
+AWS provides:
+
+Amazon SageMaker Data Wrangler
+
+It balances datasets using:
+
+Random undersampling
+Random oversampling
+SMOTE (Synthetic Minority Oversampling Technique)
+4. Safeguards for Generative AI
+
+AWS provides Guardrails in Bedrock to make AI safer.
+
+Guardrails Features
+Block undesirable topics
+Filter harmful content
+Remove harmful responses
+Redact sensitive data
+
+Example protections:
+
+Hate speech filtering
+Violence filtering
+PII protection
+
+PII = Personally Identifiable Information
+
+Examples:
+
+Phone numbers
+Emails
+Addresses
+5. Model Prediction Explanation
+
+Understanding why a model made a prediction is important.
+
+AWS tool:
+
+Amazon SageMaker Experiments (integrated with Clarify)
+
+What it shows
+Feature importance
+Which input influenced prediction most
+Explanation for tabular, NLP, and computer vision models
+
+Example:
+
+Loan prediction model may show:
+
+Income → high influence
+Age → medium influence
+Gender → low influence
+6. Monitoring and Human Review
+
+Models must be monitored after deployment.
+
+Tools used:
+
+1. Amazon SageMaker Model Monitor
+
+Tracks model performance in production.
+
+It detects:
+
+Data drift
+Accuracy changes
+Model quality problems
+
+Alerts are sent when issues appear.
+
+2. Amazon Augmented AI (A2I)
+
+Adds human review to AI decisions.
+
+Example:
+
+AI prediction → Human validates result.
+
+Used in cases like:
+
+Document processing
+Medical analysis
+Financial risk
+7. Governance Improvement
+
+Governance ensures control, transparency, and accountability.
+
+Tools include:
+
+Amazon SageMaker Role Manager
+Manages permissions
+Controls who can access models
+Amazon SageMaker Model Cards
+
+Stores important model information:
+
+Intended use
+Risk ratings
+Training data
+Limitations
+Amazon SageMaker Model Dashboard
+
+Provides:
+
+Overview of model performance
+Bias reports
+Monitoring information
+8. Transparency with AI Service Cards
+
+AWS provides AI Service Cards to explain AI services clearly.
+
+These documents include:
+
+Basic concepts of the service
+Intended use cases
+Limitations of the model
+Responsible AI design decisions
+Deployment and optimization guidance
+
+This helps:
+
+Developers
+Researchers
+Businesses
+Stakeholders
+
+understand how the AI works and its risks.
