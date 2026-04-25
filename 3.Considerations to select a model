@@ -1,0 +1,372 @@
+Responsible Considerations to Select a Model — Detailed Summary
+
+Selecting the right model is one of the most critical steps in building an AI system.
+
+The model you choose affects:
+
+User experience
+Product performance
+Hiring needs
+Deployment speed
+Business profitability
+
+AWS tools that help evaluate models:
+
+Amazon Bedrock Model Evaluation
+Amazon SageMaker Clarify
+
+These tools help evaluate models based on:
+
+Accuracy
+Robustness
+Toxicity
+Human judgement (quality of responses)
+1. Define the Application Use Case Narrowly
+
+One of the most important steps in model selection is clearly defining the specific use case.
+
+A technology is not the same as a use case.
+
+Example:
+
+Technology → Face recognition
+Use case → How face recognition is applied.
+
+Example: Traditional AI Use Case
+
+Face recognition can be used for different applications.
+
+Gallery Retrieval
+
+Used to search images of people.
+
+Example: Finding missing persons
+
+Model requirement:
+
+Favor recall
+
+Meaning:
+The model should show many possible matches so investigators do not miss someone.
+
+Celebrity Recognition
+
+Used to identify celebrities.
+
+Model requirement:
+
+Favor precision
+
+Meaning:
+The model should show only the most accurate match.
+
+Too many results would create confusion.
+
+Virtual Proctoring
+
+Used in online exams.
+
+Model requirement:
+
+Favor precision
+
+Reason:
+
+The system must accurately identify the correct person.
+
+Recall vs Precision Trick
+
+Recall → Find as many possible results as possible
+
+Precision → Find the most accurate result
+
+Memory trick:
+
+Recall = Many results
+Precision = Correct results
+
+2. Example: Generative AI Use Case
+
+Example: AI assistant for an online store.
+
+Two possible use cases:
+
+Use Case 1: Product Catalog
+
+Purpose:
+
+Describe products clearly.
+
+Target audience:
+
+Broad audience
+
+Possible issues:
+
+Veracity (truthfulness)
+
+Consequences of errors:
+
+Brand damage
+Lost sales
+Product returns
+
+Model tuning should focus on:
+
+Neutral tone
+Clear descriptions
+Complete information
+Use Case 2: Persuasion to Buy
+
+Purpose:
+
+Convince customers to purchase.
+
+Target audience:
+
+Narrow demographic
+
+Example:
+
+People living near the coast who may buy boat accessories.
+
+Possible issues:
+
+Veracity problems
+Bias
+Toxicity
+Incorrect details
+
+Consequences:
+
+Brand damage
+Sales loss
+Customer mistrust
+Harm to specific groups
+
+Model tuning should focus on:
+
+Highlighting benefits
+Targeted messaging
+Addressing specific customer needs
+3. Choosing a Model Based on Performance
+
+Model performance depends on multiple factors.
+
+1. Level of Customization
+
+Ability to adjust model behavior.
+
+Levels include:
+
+Prompt engineering
+Fine-tuning
+Full retraining
+
+Higher customization → better task performance.
+
+2. Model Size
+
+Defined by parameter count.
+
+Large models:
+
+More knowledge
+Better reasoning
+Higher compute cost
+
+Small models:
+
+Faster
+Cheaper
+Less capable
+3. Inference Options
+
+Ways to deploy the model.
+
+Examples:
+
+Self-managed infrastructure
+API calls
+
+Example service:
+
+Amazon Bedrock
+4. Licensing Agreements
+
+Some models have restrictions such as:
+
+Non-commercial use only
+Limited redistribution
+Attribution requirements
+
+Always check license terms.
+
+5. Context Window
+
+Context window = amount of text the model can process in one prompt.
+
+Example:
+
+Large context window allows:
+
+Long documents
+Complex conversations
+Code analysis
+
+Small context window limits prompt size.
+
+6. Latency
+
+Latency = time required to generate a response
+
+Low latency:
+
+Faster user experience
+Better real-time applications
+
+High latency:
+
+Slower interactions
+
+Example use cases needing low latency:
+
+Chatbots
+Customer service assistants
+4. Evaluate Models Using Test Datasets
+
+A common mistake is thinking:
+
+“Model A is better than Model B.”
+
+In reality:
+
+Performance = Model + Dataset
+
+A model may perform differently depending on the dataset.
+
+Example:
+
+Model performs well on Dataset A
+Performs better on Dataset B
+Performs poorly on Dataset C
+
+This means both model development and dataset development must be considered.
+
+Datasets are not static.
+
+They change over time.
+
+So evaluation must be continuous.
+
+5. Sustainability Considerations
+
+Responsible AI must consider long-term sustainability.
+
+Sustainability includes:
+
+Social impact
+Environmental impact
+Economic impact
+6. Responsible Agency
+
+Responsible agency means AI systems should make ethical and socially responsible decisions.
+
+Key components include:
+
+Value Alignment
+
+AI should follow human values and ethics.
+
+Example:
+
+Avoid harmful outputs
+Respect fairness
+Responsible Reasoning Skills
+
+AI should make logical and ethical decisions.
+
+Example:
+
+Avoid generating misinformation.
+
+Appropriate Level of Autonomy
+
+AI should only have the right amount of independence.
+
+Example:
+
+Critical decisions may require human approval.
+
+Transparency and Accountability
+
+AI systems should be explainable.
+
+Users should know:
+
+How decisions are made
+Who is responsible
+7. Environmental Considerations
+
+AI systems consume large amounts of computing resources.
+
+Responsible AI considers environmental impact.
+
+Key concerns:
+
+Energy Consumption
+
+Large models require:
+
+Data centers
+GPUs
+Electricity
+
+Solution:
+
+Use efficient models when possible.
+
+Resource Utilization
+
+AI uses resources such as:
+
+Hardware
+Cloud infrastructure
+Storage
+
+Efficient resource use reduces costs and environmental impact.
+
+Environmental Impact Assessment
+
+Organizations should evaluate:
+
+Carbon footprint
+Energy usage
+Sustainability of infrastructure
+8. Economic Considerations
+
+AI technologies can impact the economy.
+
+Positive impacts:
+
+Automation
+Increased productivity
+Cost savings
+
+Negative impacts:
+
+Job displacement
+Income inequality
+Concentration of power in large tech companies
+
+Example concern:
+
+Large companies controlling:
+
+AI models
+Data
+Cloud infrastructure
+
+This could create monopolies.
+
+Responsible AI must balance innovation with fairness.
